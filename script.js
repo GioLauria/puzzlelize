@@ -151,7 +151,7 @@
       render();
       return;
     }
-    if(key===' '){
+    if(key===' ' || key==='Enter'){
       e.preventDefault();
       const curIndex = cursor.r * cols + cursor.c;
       if(selected === null){
