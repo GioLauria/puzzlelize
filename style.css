@@ -1,0 +1,15 @@
+:root{--board-max:800px}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;margin:0;padding:20px;background:#f5f7fb;color:#111}
+.wrap{max-width:1000px;margin:0 auto}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.controls label{font-size:14px}
+input[type=file]{width:220px}
+#boardContainer{border:1px solid #ddd;padding:8px;background:#fff;display:inline-block}
+#board{position:relative;outline:none;display:block;max-width:var(--board-max);max-height:80vh}
+.piece{position:absolute;background-size:cover;background-repeat:no-repeat;transition:all 180ms ease}
+.cursor{box-shadow:0 0 0 3px rgba(0,120,210,0.25) inset}
+.selected{box-shadow:0 0 0 4px rgba(210,90,0,0.35) inset}
+.help{margin-top:12px;color:#333}
+h1{margin:0 0 12px 0;font-size:20px}
+button{padding:6px 10px}

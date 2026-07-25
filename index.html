@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Puzzlerize — Keyboard Puzzle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>Puzzlerize — Keyboard Puzzle</h1>
+
+    <div class="controls">
+      <label>Image: <input id="imgfile" type="file" accept="image/*"></label>
+      <label>Rows: <input id="rows" type="number" min="1" value="4"></label>
+      <label>Cols: <input id="cols" type="number" min="1" value="4"></label>
+      <label>Total: <input id="total" type="number" min="1" value="16"></label>
+      <button id="applyGrid">Apply</button>
+      <button id="scramble">Scramble</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <div id="boardContainer">
+      <div id="board" tabindex="0"></div>
+    </div>
+
+    <div class="help">
+      <p>Use arrow keys to move cursor. Press <strong>Space</strong> to select a piece, move cursor and press <strong>Space</strong> to swap.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
