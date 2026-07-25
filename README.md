@@ -1,6 +1,16 @@
-# Puzzlerize — Keyboard Puzzle
+# Puzzlelise — Keyboard Puzzle
 
 Client-side puzzle builder. Load an image, set rows/columns (or total pieces), scramble and solve using keyboard.
+
+## Live demo
+
+The page is published with GitHub Pages and can be opened directly in the browser:
+
+- **URL:** https://giolauria.github.io/puzzlelize/
+- **Source:** `main` branch, root folder (`/`)
+- **Entry point:** `index.html` (served automatically as the default document)
+
+No build step or server is required — GitHub Pages serves the static files (`index.html`, `style.css`, `script.js`) as-is.
 
 Usage
 
